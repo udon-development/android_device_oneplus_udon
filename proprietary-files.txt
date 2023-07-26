@@ -1520,13 +1520,6 @@ vendor/firmware/evautil64.b08
 vendor/firmware/evautil64.mdt
 vendor/firmware/gmu_gen70000.bin
 
-# ESE
-odm/bin/hw/vendor.qti.esepowermanager@1.1-service
-odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-odm/lib64/vendor.qti.esepowermanager@1.0.so
-odm/lib64/vendor.qti.esepowermanager@1.1.so
-
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
@@ -1607,16 +1600,6 @@ odm/etc/iris_configs.xml
 odm/etc/irissoft_tianma_nt37705_dsc_cmd_mode_panel.dat
 odm/etc/irissoft_tianma_nt37705_dsc_cmd_mode_panel.fw
 odm/etc/irissoft_tianma_nt37705_dsc_cmd_mode_panel.xml
-
-# NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_22881:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_22881:vendor/etc/libnfc-nci.conf
-odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:vendor/firmware/sn100u.bin
-
-# Secure element
-odm/bin/hw/vendor.qti.secure_element@1.2-service
-odm/etc/init/vendor.qti.secure_element@1.2-service.rc
-odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 odm/etc/sensor/config/lux_aod.json
