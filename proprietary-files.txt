@@ -1572,6 +1572,13 @@ vendor/firmware/a730_zap.mdt
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
 
+# IR
+odm/bin/hw/android.hardware.ir-service
+odm/etc/init/android.hardware.ir-service.rc
+odm/etc/vintf/manifest/android.hardware.ir-service.xml
+odm/lib64/android.hardware.ir-V1-ndk_platform.so
+vendor/lib64/hw/consumerir.default.so
+
 # Iris
 odm/etc/inparm/iris7/inParm14.txt
 odm/etc/inparm/iris7/inParm14_low.txt
